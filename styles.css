@@ -21,37 +21,62 @@ ul{
     list-style: none;
     gap: 4px;
 }
-.Chefs{
+img.Chefs{
     width: 200px;
-    height: auto;
+    height: 170px;
+    align-self: center;
 }
 .main{
+    margin: 100px;
     flex:1;
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
+    justify-content: center;
     
 }
 .awesome {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
 }
 button{
-    padding: 8px;
-    margin 8px;
+    border-radius: 8px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .example{
     width: 100px;
-    height: auto;
+    height: 100px;
+    border-radius: 10px;
 }
 .cards{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+    margin: 100px;
+}
+,text{
+    justify-content: center;
+    align-items: center;
 }
 .quote{
+    margin: 40px;
+    padding: 20px;
+    border-radius: 5px;
     background-color: #E5E7EB;
     font-size: 36px;
     color:#1F2937;
     font-style: italic;
+}
+.autor{
+    
 }
 
 .hero, .footer{
